@@ -19,7 +19,7 @@
     &__item {
         row-gap: 5px;
         display: grid;
-        grid-template: minmax(21px, auto) 18px / repeat(2, minmax(61px, auto));
+        grid-template: minmax(21px, auto) 18px / repeat(2, auto);
         justify-content: space-between;
         align-content: space-between;
 
@@ -42,7 +42,7 @@
         }
 
         &-value {
-            text-align: end;
+            justify-self: end;
         }
 
         &-descr {
